@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context="prova.com.br.prova.NovoBaile">
+
+    <TextView android:text="Título"/>
+    <EditText android:id="@+id/dsTitulo"/>
+
+    <Spinner android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/ds_spinner"/>
+
+    <TableRow>
+        <TextView android:text="Ingressos Masculino"/>
+        <TextView android:text="Valor"/>
+    </TableRow>
+    
+    <TableRow>
+        <EditText android:id="@+id/qtMasc"
+            android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/vlMasc"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Ingressos femininos"/>
+        <TextView android:text="Valor"/>
+    </TableRow>
+
+    <TableRow>
+        <EditText android:id="@+id/qtFem"
+            android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/vlFem"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TextView android:text="Dia da Semana"/>
+    <RadioGroup android:orientation="horizontal"
+        android:id="@+id/diaSemana">
+        <RadioButton
+            android:id="@+id/ieQuinta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quinta"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/ieSexta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexta"/>
+        <RadioButton
+            android:id="@+id/ieSabado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sábado"/>
+        <RadioButton
+            android:id="@+id/ieDomingo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domingo"/>
+    </RadioGroup>
+
+    <TextView android:text="Mulheres Free 23h"/>
+    <RadioGroup android:orientation="horizontal"
+        android:id="@+id/ieMulherFree">
+        <RadioButton
+            android:id="@+id/ieSim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim"/>
+        <RadioButton
+            android:id="@+id/ieNao"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não"
+            />
+    </RadioGroup>
+
+    <TextView android:text="Data do baile"/>
+
+    <TableRow>
+        <TextView android:text="2020-01-01" android:id="@+id/data"/>
+        <TextView android:text="6:00" android:id="@+id/hora"
+            android:gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Data" android:onClick="selecionarData"/>
+        <Button android:text="Duração" android:onClick="selecionarHora"/>
+    </TableRow>
+
+    <RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_alignParentBottom="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Reset"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="salvarBailao"/>
+
+    </RelativeLayout>
+
+</TableLayout>

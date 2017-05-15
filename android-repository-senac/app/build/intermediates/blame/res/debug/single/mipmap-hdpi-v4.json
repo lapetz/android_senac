@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\CARINA\\Desktop\\Android\\Prova\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\CARINA\\Desktop\\Android\\Prova\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\CARINA\\Desktop\\Android\\android-repository-senac\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\CARINA\\Desktop\\Android\\android-repository-senac\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

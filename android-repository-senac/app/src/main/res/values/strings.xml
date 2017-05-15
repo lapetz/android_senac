@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Prova</string>
+    -
+    <string-array name="ds_spinner">
+        <item>Tchê Garotos</item>
+        <item>João Luiz Correia</item>
+        <item>Garotasso</item>
+        <item>Garotos de Ouro</item>
+    </string-array>
+
+    <array name="empresas">
+        <item>Empresa A</item>
+        <item>Empresa B</item>
+        <item>Empresa C</item>
+        <item>Empresa D</item>
+    </array>
+</resources>

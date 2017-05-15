@@ -1,0 +1,6 @@
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\prova\com\br\prova\NovoBaile$override.class
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\prova\com\br\prova\form_itens_menu$override.class
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\prova\com\br\prova\NovoBaile$2$override.class
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\prova\com\br\prova\NovoBaile$1$override.class
+CHANGED,C:\Users\CARINA\Desktop\Android\android-repository-senac\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\prova\com\br\prova\ItensMenu$override.class
